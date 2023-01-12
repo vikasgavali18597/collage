@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class CoreComponent {
   status: boolean = false;
+
+  number = 7;
   clickEvent(){
       this.status = !this.status;       
   }

@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class SidebarComponent {
 
+  data = Sidebar;
+}
+
+const Sidebar = [
+  { name: 'Staff', icon: 'user', link: '' },
+  { name: 'Teacher', icon: 'user', link: '' },
+  { name: 'Student', icon: 'user', link: '' },
+];
+export interface sidebar {
+  name:string;
+  icon:string;
+  link:string;
 }
